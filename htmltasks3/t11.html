@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: wheat;
+        }
+        .my-div1 {
+            background-color: brown;
+            color: white;
+            text-align: center;
+            text-transform: capitalize;
+            font-family: sans-serif;
+            padding: 20px;
+            
+        }
+        input{
+            width: 100%;
+            height:100%;
+            border: none;
+        }
+        textarea{
+            width:100%;
+            height:100%;
+            border:none;
+        }
+        .my-div2 {
+            background-color: white;
+            padding: 10px;
+        }
+        button {
+            border: 1px solid;
+            text-align: center;
+            background-color: yellow;
+            width: 100%;
+            height: 100%;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="my-div1">
+        <h1>contact us!</h1>
+    </div>
+    <br><br>
+    <form action="post">
+        <div class="my-div2"><input type="text" name="name" id="name" placeholder="Name..."></div>
+        <br><br>
+        <div class="my-div2"><input type="email" name="email" id="email" placeholder="Email..."></div>
+        <br><br>
+        <div class="my-div2"><input type="text" name="subject" id="subject" placeholder="Subject..." width=""></div>
+        <br><br>
+        <div class="my-div2"><textarea>Message.......</textarea></div>
+        <br><br>
+        <div><button type="submit">Send Message</button></div>
+    </form>
+</body>
+</html>
